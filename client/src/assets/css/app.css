@@ -1,0 +1,48 @@
+body{
+    font-family: 'Archivo Narrow', 
+    sans-serif;background: rgba(162, 213, 242, 0.2);
+}
+
+/* home */
+
+.title-home{
+    font-size: 100px;
+
+}
+
+.btn-about-us{
+    background: rgba(7, 104, 159, 0.6);
+    border-radius: 80px;
+}
+
+.img-hero-home{
+    height: 80vh;
+}
+
+/* trainer */
+.img-hero-trainer{
+    position: fixed;
+    left: 0;
+    top: -60px;
+    z-index: -99;
+}
+
+.img-trainer{
+    width: 84px;
+}
+.search-input-trainer{
+    padding-top: 18px;
+    padding-bottom: 18px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 1px solid#07679f36;
+    border-radius: 30px;
+    margin-right: 10px;
+}
+.btn-search-trainer{
+    background-color: #FF7E67;
+    border-radius: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: #fff; 
+}
