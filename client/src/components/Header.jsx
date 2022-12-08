@@ -1,5 +1,6 @@
 import React from 'react';
 import Logo from '../assets/img/logo.png';
+import { Link } from 'react-router-dom';
 
 export default function Header() {
     return (
@@ -25,23 +26,35 @@ export default function Header() {
                 >
                     <div className="navbar-nav ms-auto">
                         <a
-                            className="nav-link mx-2 fw-bolder text-dark"
+                            className="nav-link c-nav-link mx-2 text-dark"
                             aria-current="page"
                             href="#"
                         >
-                            Home
+                            <Link to="/">Home</Link>
                         </a>
-                        <a className="nav-link mx-2 text-dark" href="#">
-                            Trainers
+                        <a
+                            className="nav-link c-nav-link mx-2 text-dark"
+                            href="#"
+                        >
+                            <Link to="/trainer">Trainers</Link>
                         </a>
-                        <a className="nav-link mx-2 text-dark" href="#">
-                            Match Team
+                        <a
+                            className="nav-link c-nav-link mx-2 text-dark"
+                            href="#"
+                        >
+                            <Link to="/team">Match Team</Link>
                         </a>
-                        <a className="nav-link mx-2 text-dark" href="#">
-                            Sport Vanue
+                        <a
+                            className="nav-link c-nav-link mx-2 text-dark"
+                            href="#"
+                        >
+                            <Link to="/place">Sport Vanue</Link>
                         </a>
-                        <a className="nav-link mx-2 text-dark" href="#">
-                            Food Calories
+                        <a
+                            className="nav-link c-nav-link mx-2 text-dark"
+                            href="#"
+                        >
+                            <Link to="/food">Food Calories</Link>
                         </a>
                     </div>
                 </div>

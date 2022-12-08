@@ -5,7 +5,6 @@ import Hero from '../assets/img/hero-home.png';
 export default function Home() {
     return (
         <div>
-            <Header />
             <div className="container">
                 <div className="row align-items-center">
                     <div className="col text-start">
