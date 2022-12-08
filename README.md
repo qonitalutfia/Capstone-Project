@@ -22,7 +22,7 @@ Database
 ### Installation
 1. Clone repositorinya
    ```sh
-   git clone https://github.com/xx/xxx.git
+   git clone https://github.com/qonitalutfia/Capstone-Project.git
    ```
 2. Lalu masuk ke folder hasil clone tadi. Akan ada dua folder, yaitu client dan server.
 
@@ -34,11 +34,15 @@ Database
    ```sh
    npm install
    ```
-3. Jalankan Client
+3. Masuk ke folder Client
+   ```sh
+   cd client
+   ```
+4. Jalankan Client
    ```sh
    npm run start
    ```
-4. Lalu buka http://localhost:8080/ untuk mengakses bagian front-end
+5. Lalu buka http://localhost:8080/ untuk mengakses bagian front-end
 
 
 #### Server (Opsional)
@@ -48,7 +52,10 @@ Notes : Jika sudah berhasil menginstall front-end, sebenarnya tidak perlu menjal
 
 * [PHP 7.4.26 with XAMPP](https://www.apachefriends.org/download.html)
 
-1. Masuk ke folder client, lalu buka terminal atau vscode.
+1. Masuk ke folder server, lalu buka terminal atau vscode.
+   ```sh
+   cd server
+   ```
 2. Install NPM packages
    ```sh
    npm install
