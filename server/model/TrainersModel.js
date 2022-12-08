@@ -6,7 +6,7 @@ const {DataTypes} = Sequelize;
 const Trainers = db.define('trainers', {
     name : DataTypes.STRING,
     profesi : DataTypes.STRING,
-    description : DataTypes.STRING
+    phone : DataTypes.STRING
 },{
     freezeTableName : true
 })
